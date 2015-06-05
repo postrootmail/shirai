@@ -25,6 +25,7 @@
                 <li><a href="/staff">スタッフ</a></li>
                 <li><a href="/guitars">製作済み一覧</a></li>
                 <li><a href="/home/access">アクセス</a></li>
+                <li><a href="/home/inquiry">問い合わせ</a></li>
             </ul>
         </div><!-- /#menu -->
     </div><!-- /#header -->

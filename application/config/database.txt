@@ -1,0 +1,12 @@
+CREATE DATABASE shirai DEFAULT CAHRSET utf8;
+
+CREATE TABLE `blog` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL COMMENT 'タイトル',
+  `body` text NOT NULL COMMENT '本文',
+  `author` varchar(255) DEFAULT NULL COMMENT '投稿者',
+  `is_active` tinyint(1) NOT NULL DEFAULT '0' COMMENT '公開フラグ',
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
