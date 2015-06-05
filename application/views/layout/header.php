@@ -7,9 +7,9 @@
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-<link rel="stylesheet" href="css/common.css" type="text/css" />
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
+<link rel="stylesheet" href="/css/common.css" type="text/css" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
 
 <title>○○ギターズ</title>
 </head>
@@ -20,10 +20,11 @@
         <h1><a href="/">○○</a></h1>
         <div id="menu">
             <ul>
-                <li class="home active"><a href="index.html">ホーム</a></li>
-                <li><a href="">ブログ</a></li>
-                <li><a href="">スタッフ</a></li>
-                <li><a href="">製作済み一覧</a></li>
+                <li class="home active"><a href="/">ホーム</a></li>
+                <li><a href="/blog">ブログ</a></li>
+                <li><a href="/staff">スタッフ</a></li>
+                <li><a href="/guitars">製作済み一覧</a></li>
+                <li><a href="/home/access">アクセス</a></li>
             </ul>
         </div><!-- /#menu -->
     </div><!-- /#header -->
@@ -39,7 +40,7 @@
                 <div class="topNaviCon">
                     <div class="topNaviPhoto"><img src="images/photo01.jpg" alt="" /></div>
                     <p>○○の日々を綴ります</p>
-                    <p class="topNaviDetail"><a href="index.html">詳しくはこちら</a></p>
+                    <p class="topNaviDetail"><a href="/blog">詳しくはこちら</a></p>
                 </div><!-- /.topNaviCon -->
             </div><!-- /.topNaviColumn -->
             <div class="topNaviColumn">
@@ -47,7 +48,7 @@
                 <div class="topNaviCon">
                     <div class="topNaviPhoto"><img src="images/photo02.jpg" alt="" /></div>
                     <p>仲間一覧</p>
-                    <p class="topNaviDetail"><a href="index.html">詳しくはこちら</a></p>
+                    <p class="topNaviDetail"><a href="/staff">詳しくはこちら</a></p>
                 </div><!-- /.topNaviCon -->
             </div><!-- /.topNaviColumn -->
             <div class="topNaviColumn">
@@ -55,7 +56,7 @@
                 <div class="topNaviCon">
                     <div class="topNaviPhoto"><img src="images/photo03.jpg" alt="" /></div>
                     <p>私達が制作した楽器一覧です</p>
-                    <p class="topNaviDetail"><a href="index.html">詳しくはこちら</a></p>
+                    <p class="topNaviDetail"><a href="/guitars">詳しくはこちら</a></p>
                 </div><!-- /.topNaviCon -->
             </div><!-- /.topNaviColumn -->
         </div><!-- /.topNavi -->
@@ -65,29 +66,29 @@
                 <h3>メニュー</h3>
                 <h4>製作</h4>
                 <ul>
-	                <li><a href="index.html">完全オーダーメイド</a></li>
-	                <li><a href="index.html">セミオーダー</a></li>
-	                <li><a href="index.html">量産モデル</a></li>
+	                <li><a href="">完全オーダーメイド</a></li>
+	                <li><a href="">セミオーダー</a></li>
+	                <li><a href="">量産モデル</a></li>
                 </ul>
                 <h4>修理</h4>
                 <ul>
-                    <li><a href="index.html">ネック折れ</a></li>
-                    <li><a href="index.html">リフィニッシュ</a></li>
-                    <li><a href="index.html">リフレット</a></li>
+                    <li><a href="">ネック折れ</a></li>
+                    <li><a href="">リフィニッシュ</a></li>
+                    <li><a href="">リフレット</a></li>
                 </ul>
                 <h4>調整</h4>
                 <ul>
-                    <li><a href="index.html">弦高調整</a></li>
-                    <li><a href="index.html">ネック調整</a></li>
-                     <li><a href="index.html">ナット調整</a></li>
+                    <li><a href="">弦高調整</a></li>
+                    <li><a href="">ネック調整</a></li>
+                    <li><a href="">ナット調整</a></li>
                </ul>
             </div><!-- /.submenu -->
             
             <div class="bnrR">
                 <h3>リンク</h3>
                 <ul>
-                    <li><a href="index.html"><img src="images/bnr_r.jpg" alt="" /></a></li>
-                    <li><a href="index.html"><img src="images/bnr_r.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="images/bnr_r.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="images/bnr_r.jpg" alt="" /></a></li>
                 </ul>
             </div><!-- /.bnrR -->
         </div><!-- /.conL -->

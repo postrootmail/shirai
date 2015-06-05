@@ -10,4 +10,4 @@
                     <dt>2013-08-01</dt>
                     <dd><a href="sample.html">制作実績のページ</a>を更新しました。</dd>
                 </dl>
-            </div><!-- /.information -->
+            </div>
